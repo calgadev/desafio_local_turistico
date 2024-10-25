@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: "Open Sans", sans-serif;
+    color: #333333;
+}
+
+main {
+    box-sizing: border-box;
+    width: 1120px;
+    margin: 88px auto 65px;
+    /* border: solid; */
+}
+
+.headline {
+    color: #E1624F;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: bold;
+    padding-left: 36px;
+    padding-bottom: 4px;
+}
+
+h1, h2, h3 {
+    color: #1B1B1B;
+}
+
+.subtitle {
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 44px;
+}
+
+#contentList img {
+    margin: 48px auto 20px;
+}
+
+#descriptionImage img {
+    border-radius: 28px;
+    width: 1120px;
+    height: 660px;
+    margin-bottom: 24px;
+}
+
+.cardTravel img {
+    border-radius: 28px;
+    width: 1120px;
+    height: 350px;
+}
+
+.unorderedList {
+    font-weight: bold;
+}
+
+ul {
+    padding-left: 24px;
+    list-style: disc;
+    font-weight: bold;
+    color: #0C51A7;
+}
+
+#last {
+    color: #E95E10;
+}
+
+li + li {
+    color: #e524e5;
+}
+
+li + li + li {
+    color: #591B98;
+}
+
+#description p {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 48px;
+}
